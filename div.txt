@@ -12,8 +12,9 @@ Presentation --> texte intro
 Presentation --> bouton en savoir plus
 
 
-Footer --> About -->
-Footer --> Info
+Footer --> About --> texte d'information sur le client
+Footer --> Info --> About us
+Footer --> Info -->
 Footer --> Reseau
 Footer --> (Newsletter) ????
 Footer --> Moyen de paiment autoriser sur le site
@@ -24,7 +25,7 @@ Footer --> Moyen de paiment autoriser sur le site
 
 
 
-CONTACt
+CONTACT
 
 
 
