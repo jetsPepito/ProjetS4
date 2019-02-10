@@ -1,24 +1,28 @@
+html, body {
+	height: 100%;
+	margin: 0;
+  padding: 0;
+}
+
 body{
-  margin: 0px;
-  padding: 0px;
+  display : table;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
   background-color: #cccccc;
 }
 
-.background{
+body .background{
   background-image: url("Img-background.png");
-  background-attachment: fixed;
-  /*
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  margin-top: 0px;
+	color: #FFFFFF;
+	background-color: #FFF;
   width: 100%;
   height: 1080px;
-
-
+	margin-right: auto;
+	margin-left: auto;
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0px;
-  */
 }
 
 .background .HomeMenu{
@@ -30,8 +34,69 @@ body{
 .background .HomeMenu .logo{
   float: left;
   margin-top: 40px;
+  margin-left: 15px;
+}
+
+.background .HomeMenu .navbar{
+  float: right;
+  margin-top: 40px;
+}
+
+.background .HomeMenu .navbar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.background .HomeMenu .navbar ul li{
+  display: inline;
+  margin: 0 25px;
+}
+
+.background .HomeMenu .navbar ul li a{
+  color: #708D23;
+  text-decoration: none;
+}
+
+.background .HomeMenu .navbar ul li a:hover{
+  cursor: pointer;
+  color: #yellow;
+}
+
+.background .HomeMenu .navbar ul li a:active{
+  color: dimgray;
 }
 
 .Footer{
+  width: auto;
+  margin-top: 100%;
+  position: relative;
+}
 
+.Footer .UpPage{
+  text-align: center ;
+  margin-bottom: 5px;
+}
+
+.Footer .UpPage a{
+  color: #708D23;
+  text-decoration:none;
+}
+
+.Footer .UpPage a:hover{
+  cursor: pointer;
+  color: #yellow;
+}
+
+.Footer .UpPage a:active{
+  color: dimgray;
+}
+
+.Footer .Contact{
+  float:right;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.clearfix{
+    clear: both;
 }
