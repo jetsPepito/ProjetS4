@@ -60,7 +60,7 @@ body .background{
 
 .background .HomeMenu .navbar ul li a:hover{
   cursor: pointer;
-  color: #yellow;
+  color: yellow;
 }
 
 .background .HomeMenu .navbar ul li a:active{
@@ -85,7 +85,7 @@ body .background{
 
 .Footer .UpPage a:hover{
   cursor: pointer;
-  color: #yellow;
+  color: yellow;
 }
 
 .Footer .UpPage a:active{
