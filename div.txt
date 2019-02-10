@@ -1,4 +1,22 @@
 INDEX
+background : image fixe rien en dessous
+
+div sur l'image
+
+Home Menu --> logo
+Home Menu --> navbar(avec logo)
+navbar --> **remplir**
+
+
+Presentation --> texte intro
+Presentation --> bouton en savoir plus
+
+
+Footer --> About -->
+Footer --> Info
+Footer --> Reseau
+Footer --> (Newsletter) ????
+Footer --> Moyen de paiment autoriser sur le site
 
 
 
@@ -7,3 +25,30 @@ INDEX
 
 
 CONTACT
+
+
+
+
+
+
+
+
+Product_List
+
+
+
+
+
+
+
+
+Product_Page
+
+
+
+
+
+
+
+
+Payment_Page
