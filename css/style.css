@@ -22,7 +22,14 @@ body{
 }
 
 .background .HomeMenu{
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
 
+.background .HomeMenu .logo{
+  float: left;
+  margin-top: 40px;
 }
 
 .Footer{
