@@ -15,14 +15,9 @@ body{
 
 body .background{
   background-image: url("Img-background.png");
-  margin-top: 0px;
-	color: #FFFFFF;
-	background-color: #FFF;
+  position: fixed;
   width: 100%;
-  height: 1080px;
-	margin-right: auto;
-	margin-left: auto;
-  position: relative;
+  height: 100%;
 }
 
 .background .HomeMenu{
@@ -67,32 +62,55 @@ body .background{
   color: dimgray;
 }
 
-.Footer{
+.background .Presentation{
+	text-align: left;
+	color: #FFF;
+	margin-top:500px;
+	margin-left: 1200px;
+}
+
+.background .Presentation .BtnMore{
+	text-align: center;
+	color: #FFF;
+	margin-top: 30px;
+}
+
+.background .Presentation .BtnMore a{
+		padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #708D23;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+footer{
   width: auto;
   margin-top: 100%;
   position: relative;
 }
 
-.Footer .UpPage{
+footer .UpPage{
   text-align: center ;
   margin-bottom: 5px;
 }
 
-.Footer .UpPage a{
+footer .UpPage a{
   color: #708D23;
   text-decoration:none;
 }
 
-.Footer .UpPage a:hover{
+footer .UpPage a:hover{
   cursor: pointer;
   color: yellow;
 }
 
-.Footer .UpPage a:active{
+footer .UpPage a:active{
   color: dimgray;
 }
 
-.Footer .Contact{
+footer .Contact{
   float:right;
   margin-right: 15px;
   margin-bottom: 5px;
