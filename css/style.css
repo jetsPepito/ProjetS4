@@ -14,7 +14,7 @@ body{
 }
 
 body .background{
-  background-image: url("Ceramics/Jugs.JPG");
+	background-color: #FFF;
   position: relative;
   min-width: 100%;
   min-height: 100%;
