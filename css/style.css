@@ -63,14 +63,14 @@ body .background{
 }
 
 .background .Presentation{
-	text-align: left;
+	text-align: right;
 	color: #FFF;
-	margin-top:500px;
-	margin-left: 1200px;
+	margin-right: 10%;
+	margin-top: 500px;
 }
 
 .background .Presentation .BtnMore{
-	text-align: center;
+	text-align: right;
 	color: #FFF;
 	margin-top: 30px;
 }
@@ -89,6 +89,7 @@ footer{
   width: auto;
   margin-top: 100%;
   position: relative;
+	background-color: white;
 }
 
 footer .UpPage{
