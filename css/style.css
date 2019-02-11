@@ -14,10 +14,10 @@ body{
 }
 
 body .background{
-  background-image: url("Img-background.png");
-  position: fixed;
-  width: 100%;
-  height: 100%;
+  background-image: url("Ceramics/Jugs.JPG");
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .background .HomeMenu{
