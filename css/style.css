@@ -67,16 +67,15 @@ body .background{
 
 .background .Presentation{
 	float: right;
-	margin-right: 10%;
-	margin-top: 440px;
+	margin-right: 2%;
+	margin-top: 350px;
 	padding: 80px 100px;
 }
 
 .background .Presentation .Intro{
-	color: #708D23;
+	color:#FFF;
 	font-size: 20px;
-	font-weight: 600;
-	background-color: #140805;
+	font-weight: 400;
 	background-size: auto;
 
 }
@@ -215,6 +214,55 @@ footer li a:active{
 }
 
 footer .image{
+    position: absolute;
+    width:80px;
+    height:50px;
+    margin-top: 30px;
+}
+
+.cheat{
+  width:100%;
+  height: 100px;
+  position: relative;
+  background-color: #140805;
+	margin-top: 100%;
+}
+
+.cheat .align{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:499px;
+}
+
+.cheat .align li{
+    align-items: center;
+    display: inline;
+    margin: 10px 100px;
+}
+
+
+.cheat li a{
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #708D23;
+	font-size: 10px;
+	border-radius: 4px;
+	margin-top: 40px;
+}
+
+.cheat li a:hover{
+  cursor: pointer;
+  color: yellow;
+}
+
+.cheat li a:active{
+  color: dimgray;
+}
+
+.cheat .image{
     position: absolute;
     width:80px;
     height:50px;
