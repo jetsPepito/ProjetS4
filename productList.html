@@ -24,61 +24,81 @@
 
         <div class="search">
           <form>
-            Search:
-            <input type="text" id="myInput" name="search">
-            <br>
-            <br>
-            <br>
-            <fieldset>
-              <legend>Search criteria</legend>
-              <fieldset>
-                <legend>Object category:</legend>
-                Bowl:
-                <input type="checkbox" id="inputBowl" name="firstname" value="bowls">
-                <br>
-                Platter:
-                <input type="checkbox" id="inputPlatter" name="firstname" value="Platter">
-                Tajine:
-                <input type="checkbox" id="inputTajine" name="firstname" value="Tajine">
-                Tea Glasses:
-                <input type="checkbox" id="inputTee" name="firstname" value="tee_glasses">
-              </fieldset>
-            </fieldset>
+            <div class="searchBar">
+                Search:
+                <input type="text" id="myInput" name="search">
+                <select>
+                    <option value="Bowl">Bowl</option>
+                    <option value="Platter">Platter</option>
+                    <option value="Tajine">Tajine</option>
+                    <option value="TeaGlasses">Tea Glasses</option>
+                </select>
+            </div>
+            <div class="SearchCriteria">
+                <fieldset>
+                    <legend>Search criteria</legend>
+                    <fieldset>
+                        <legend>Object category:</legend>
+                        Bowl:
+                        <input type="checkbox" id="inputBowl" name="Category" value="bowls">
+                        
+                        Platter:
+                        <input type="checkbox" id="inputPlatter" name="Category" value="Platter">
+                        
+                        Tajine:
+                        <input type="checkbox" id="inputTajine" name="Category" value="Tajine">
+                        
+                        Tea Glasses:
+                        <input type="checkbox" id="inputTee" name="Category" value="tee_glasses">
+                    </fieldset>
+                    <legend>Color :</legend>
+                    <fieldset>
+                        Red
+                        <input type="checkbox" id="inputRed" name="Color" value="red">
+                        Blue
+                        <input type="checkbox" id="inputBlue" name="Color" value="Blue">
+                        Green
+                        <input type="checkbox" id="inputGreen" name="Color" value="Green">
+                        Yellow
+                        <input type="checkbox" id="inputYellow" name="Color" value="Yellow">
+                    </fieldset> 
+                </fieldset>
+            </div>
           </form>
         </div>
 
     </header>
 
     <div class="column">
-      <div class="productlistLine1">
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/blue bowl.JPG" alt="blue bowl">Blue bowl</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/flower dish.JPG" alt="flower dish">Flower dish</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Flower platter.JPG" alt="Flower platter">Flower platter</a></li>
+      <div class="productlistLine">
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/blue bowl.JPG" alt="blue bowl"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/flower dish.JPG" alt="flower dish"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Flower platter.JPG" alt="Flower platter"></a></li>
       </div>
-      <div class="productlistLine2">
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Green platter.JPG" alt="Green platter">Green platter</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Jugs.JPG" alt="Jugs">Jugs</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Large Blue plate.JPG" alt="Large Blue plate">Large Blue plate</a></li>
+      <div class="productlistLine">
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Green platter.JPG" alt="Green platter"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Jugs.JPG" alt="Jugs"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Large Blue plate.JPG" alt="Large Blue plate"></a></li>
       </div>
-      <div class="productlistLine3">
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/modern red.JPG" alt="modern red">modern red</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Olive bowls 1.JPG" alt="Olive bowls 1">Olive bowls</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Orange small bowls.JPG" alt="Orange small bowls">Orange small bowls</a></li>
+      <div class="productlistLine">
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/modern red.JPG" alt="modern red"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Olive bowls 1.JPG" alt="Olive bowls 1"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Orange small bowls.JPG" alt="Orange small bowls"></a></li>
       </div>
-      <div class="productlistLine4">
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl">Pink bowl</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Tagine.JPG" alt="Tagine">Tagine</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Tea glasses.JPG" alt="Tea glasses">Tea glasses</a></li>
+      <div class="productlistLine">
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Tagine.JPG" alt="Tagine"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Tea glasses.JPG" alt="Tea glasses"></a></li>
       </div>
-      <div class="productlistLine5">
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Teracotta bowl.JPG" alt="Teracotta bowl">Teracotta bowl</a></li>
-          <li class="imgProduct"><a href="#"><img src="css/Ceramics/Yellow bowl and plate.JPG" alt="Yellow bowl and plate">Yellow bowl and plate</a></li>
+      <div class="productlistLine">
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Teracotta bowl.JPG" alt="Teracotta bowl"></a></li>
+          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Yellow bowl and plate.JPG" alt="Yellow bowl and plate"></a></li>
       </div>
     </div>
 
     <footer>
         <img class="image" src="css/Logo_CB.png">
-      <div class="align">
+        <div class="align">
           <li>
               <a class="btnBackward" href="index.html">Return to the top of the page</a> <!-- change ref for each pages-->
           </li>
@@ -86,7 +106,7 @@
           <li>
               <a class="Contact" href="contact.html">Contact</a>
           </li>
-      </div>
+        </div>
     </footer>
 	</body>
 </html>
