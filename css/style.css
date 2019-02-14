@@ -1,3 +1,10 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Bad Script', cursive;
+*/
+
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -76,6 +83,7 @@ body .background{
 	color:#FFF;
 	font-size: 20px;
 	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
 	background-size: auto;
 
 }
