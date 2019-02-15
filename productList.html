@@ -1,152 +1,166 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>product List</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-	</head>
-	<body>
-    <header>
-        <div class="Menu">
-          <div class="logo">
-            <a href="index.html"><img src="css/Logo/fired bowl.png" alt="logo"></a>
-          </div>
-          <div class="navbar">
-            <ul>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Register</a></li>
-              <li><a href="contact.html">About us</a></li>
-              <li><a href="#">Checkout</a></li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-        <div class="search">
-          <form>
-            <div class="searchBar">
-                Search:
-                <input type="text" id="myInput" name="searchtxt">
-                <select>
-                    <option value="Bowl">Bowl</option>
-                    <option value="Platter">Platter</option>
-                    <option value="Tajine">Tajine</option>
-                    <option value="TeaGlasses">Tea Glasses</option>
-                </select>
-            </div>
-          </form>
-        </div>
-
-    </header>
-
-    <div class="column">
-        <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-</div>
-
-<div class="container">
-  <div class="filterDiv cars">BMW</div>
-  <div class="filterDiv colors fruits">Orange</div>
-  <div class="filterDiv cars">Volvo</div>
-  <div class="filterDiv colors">Red</div>
-  <div class="filterDiv cars animals">Mustang</div>
-  <div class="filterDiv colors">Blue</div>
-  <div class="filterDiv animals">Cat</div>
-  <div class="filterDiv animals">Dog</div>
-  <div class="filterDiv fruits">Melon</div>
-  <div class="filterDiv fruits animals">Kiwi</div>
-  <div class="filterDiv fruits">Banana</div>
-  <div class="filterDiv fruits">Lemon</div>
-  <div class="filterDiv animals">Cow</div>
-</div>
-        <script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-      <div class="productlistLine">
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/blue bowl.JPG" alt="blue bowl" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/flower dish.JPG" alt="flower dish" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Flower platter.JPG" alt="Flower platter" name="bowl"></a></li>
-      </div>
-      <div class="productlistLine">
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Green platter.JPG" alt="Green platter" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Jugs.JPG" alt="Jugs"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Large Blue plate.JPG" alt="Large Blue plate" name="bowl"></a></li>
-      </div>
-      <div class="productlistLine">
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/modern red.JPG" alt="modern red" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Olive bowls 1.JPG" alt="Olive bowls 1" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Orange small bowls.JPG" alt="Orange small bowls" name="bowl"></a></li>
-      </div>
-      <div class="productlistLine">
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Tagine.JPG" alt="Tagine" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Tea glasses.JPG" alt="Tea glasses" name="bowl"></a></li>
-      </div>
-      <div class="productlistLine">
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Teracotta bowl.JPG" alt="Teracotta bowl" name="bowl"></a></li>
-          <li ><a href="#"><img class="imgProduct" src="css/Ceramics/Yellow bowl and plate.JPG" alt="Yellow bowl and plate" name="bowl"></a></li>
-      </div>
-    </div>
-
-    <footer>
-        <img class="image" src="css/Logo_CB.png">
-        <div class="align">
-          <li>
-              <a class="btnBackward" href="index.html">Return to the top of the page</a> <!-- change ref for each pages-->
-          </li>
-
-          <li>
-              <a class="Contact" href="contact.html">Contact</a>
-          </li>
-        </div>
-    </footer>
+		<head>
+				<meta charset="utf-8">
+				<title>Fired bowl world ceramics</title>
+				<link rel="stylesheet" href="css/productList_css.css">
+				<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+		</head>
+				 <body>
+				 <header>
+				<div class="Menu">
+					<div class="logo">
+						<a href="index.html"><img src="css/Logo/fired bowl.png" alt="logo"></a>
+					</div>
+					<div class="navbar">
+						<ul>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+							<li><a href="contact.html">About us</a></li>
+							<li><a href="#">Checkout</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				</header>
+                <div class="main">
+                    <div class="Search">
+                                    <!-- Control buttons -->
+                            <div id="myBtnContainer">
+                                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                                        <button class="btn" onclick="filterSelection('bowls')"> bowls</button>
+                                        <button class="btn" onclick="filterSelection('Platter')"> Platter</button>
+                                        <button class="btn" onclick="filterSelection('Tagine')"> Tagine</button>
+                                        <button class="btn" onclick="filterSelection('TeaGlasses')"> TeaGlasses</button>
+                                        <button class="btn" onclick="filterSelection('Dish')"> Dish</button>
+                                        <button class="btn" onclick="filterSelection('Jugs')"> Jugs</button>
+                            </div>
+                             <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+                            <div class="container">
+                                <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/blue bowl.JPG" alt="blue bowl" id="bowl">
+                                        </a>
+                                    </div>
+                                <div class="filterDiv Dish">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/flower dish.JPG" alt="flower dish" id="dish">
+                                        </a>
+                                </div>
+                                <div class="filterDiv Platter">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Flower platter.JPG" alt="Flower platter" id="Platter">
+                                        </a>
+                                </div>
+                                <div class="filterDiv Platter">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Green platter.JPG" alt="Green platter" id="PLatter">
+                                        </a>
+                                </div>
+                                <div class="filterDiv Jugs">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Jugs.JPG" alt="Jugs" id="Jugs">
+                                        </a>
+                                </div>
+                                <div class="filterDiv Platter">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Large Blue plate.JPG" alt="Large Blue plate" id="Platter">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/modern red.JPG" alt="modern red" id="bowl">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Olive bowls 1.JPG" alt="Olive bowls 1" id="bowl">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Orange small bowls.JPG" alt="Orange small bowls" id="bowl">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl" name="bowl">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv Tagine">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Tagine.JPG" alt="Tagine" id="Tagine">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv TeaGlasses">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Tea glasses.JPG" alt="Tea glasses" id="TeaGlasses">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Teracotta bowl.JPG" alt="Teracotta bowl" id="bowl">
+                                        </a>
+                                </div>
+                                     <div class="filterDiv bowls">
+                                        <a href="#">
+                                                <img class="imgProduct" src="css/Ceramics/Yellow bowl and plate.JPG" alt="Yellow bowl and plate" id="bowl">
+                                        </a>
+                                </div>
+                            </div>
+                             <script>
+                                    filterSelection("all")
+                                    function filterSelection(c) {
+                                        var x, i;
+                                        x = document.getElementsByClassName("filterDiv");
+                                        if (c == "all") c = "";
+                                        for (i = 0; i < x.length; i++) {
+                                            w3RemoveClass(x[i], "show");
+                                            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                                        }
+                                    }
+                                     function w3AddClass(element, name) {
+                                        var i, arr1, arr2;
+                                        arr1 = element.className.split(" ");
+                                        arr2 = name.split(" ");
+                                        for (i = 0; i < arr2.length; i++) {
+                                            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                                        }
+                                    }
+                                     function w3RemoveClass(element, name) {
+                                        var i, arr1, arr2;
+                                        arr1 = element.className.split(" ");
+                                        arr2 = name.split(" ");
+                                        for (i = 0; i < arr2.length; i++) {
+                                            while (arr1.indexOf(arr2[i]) > -1) {
+                                                arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                                            }
+                                        }
+                                        element.className = arr1.join(" ");
+                                    }
+                                     // Add active class to the current button (highlight it)
+                                    var btnContainer = document.getElementById("myBtnContainer");
+                                    var btns = btnContainer.getElementsByClassName("btn");
+                                    for (var i = 0; i < btns.length; i++) {
+                                        btns[i].addEventListener("click", function(){
+                                            var current = document.getElementsByClassName("active");
+                                            current[0].className = current[0].className.replace(" active", "");
+                                            this.className += " active";
+                                        });
+                                    }
+                            </script>
+                    </div>
+                </div>
+								 <footer>
+						<img class="image" src="css/Logo_CB.png">
+						<div class="align">
+								<li>
+										<a class="btnBackward" href="productList.html">Return to the top of the page</a> <!-- change ref for each pages-->
+								</li>
+								<li>
+										<a class="Contact" href="contact.html">Contact</a>
+								</li>
+						</div>
+				</footer>
 	</body>
 </html>
