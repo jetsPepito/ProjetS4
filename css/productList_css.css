@@ -74,15 +74,14 @@ header .Menu{
     text-align: center;
     border-style: solid;
     border-width: thick;
-    border-bottom:
-
+    background-image: radial-gradient(darkolivegreen 5%,white 50%,darkolivegreen)
 }
 
 .Search{
     position: relative;
     min-height: 100%;
     text-align: center;
-    background-image: radial-gradient(white, black ,white)
+
 }
 
 .Search .container {
