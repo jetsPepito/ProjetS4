@@ -5,22 +5,23 @@
 */
 
 html{
-    height:115%;
+    height:100%;
 }
 
 body{
   display : table;
   width: 100%;
-  min-height: 115%;
+  min-height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
+  background-color:#140805;
 }
 
 .header{
 	background-color: #FFF;
 	color: #FFF;
-    margin: 50px;
+  margin: 50px;
 }
 
 header .Menu{
@@ -69,12 +70,12 @@ header .Menu{
 .main{
     position: relative;
     margin-top: 100px;
-    height: 1080px;
+    min-height: 1080px;
     text-align: center;
     border-style: solid;
     border-width: thick;
-    border-bottom: 
-    
+    border-bottom:
+
 }
 
 .Search{
@@ -129,7 +130,7 @@ header .Menu{
 footer{
   width:100%;
   height: 60px;
-  position: sticky;
+  position: absolute;
   background-color: #140805;
   bottom: 0;
 }
