@@ -52,11 +52,13 @@ body .background{
 
 .background .HomeMenu .navbar ul li{
   display: inline;
-  margin: 0 25px;
+  margin: 0 15px;
 }
 
 .background .HomeMenu .navbar ul li a{
-  color: #708D23;
+  color: white;
+  padding : 5px 15px;
+  background-color: #708D23;
   text-decoration: none;
 	font-family: 'Roboto Slab', serif;
 }
