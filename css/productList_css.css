@@ -40,6 +40,7 @@ header .Menu{
 
 .Menu .navbar{
   float: right;
+  	font-family: 'Roboto Slab', serif;
   margin-top: 40px;
 }
 
@@ -71,9 +72,11 @@ header .Menu{
 .main{
     position: relative;
     margin-top: 100px;
+    margin-bottom: 60px;
     min-height: 1080px;
     text-align: center;
     background-color: #D0D1D3;
+    border-style: hidden;
 }
 
 .Search{
@@ -84,6 +87,25 @@ header .Menu{
 
 .Search .container {
     overflow: hidden;
+}
+
+.Search .container .titleimg{
+    padding: 10px 20px;
+    background-color: #708D23;
+    margin-bottom: 15px;
+}
+
+.Search .container .titleimg a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.titleimg{
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Search .filterDiv {
@@ -107,7 +129,7 @@ header .Menu{
   background-color: #708D23;
   text-decoration: none;
 	font-family: 'Roboto Slab', serif;
-  font-size: 13;
+  font-size: 13px;
 }
 
 
@@ -127,8 +149,9 @@ header .Menu{
     height: 300px;
     width: 400px;
     margin:50px;
-}
-}
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
 
 footer{
   width:100%;
