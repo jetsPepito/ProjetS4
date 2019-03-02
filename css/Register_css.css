@@ -72,31 +72,15 @@ main{
     border-style: hidden;
 }
 
-.Login{
+.Register{
   position: absolute;
   margin: 50px;
   height: 700px;
   width: 300px;
+  text-align: left;
 }
 
 fieldset{
   width:250px;
   margin: 50px;
-}
-
-
-
-.btnLog{
-  position: right;
-}
-
-.Register{
-      position: relative;
-      text-align: right;
-}
-.Register a{
-  color: #708D23;
-  text-decoration: none;
-  padding: 15px 20px;
-  background-color: #FFF;
 }
