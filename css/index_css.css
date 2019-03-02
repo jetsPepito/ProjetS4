@@ -37,6 +37,10 @@ body .background{
   float: left;
   margin-top: 40px;
   margin-left: 15px;
+  background-image: url("Logo/fired bowl.jpg");
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .background .HomeMenu .navbar{
@@ -59,6 +63,7 @@ body .background{
   color: white;
   padding : 5px 15px;
   background-color: #708D23;
+  border-radius: 12px;
   text-decoration: none;
 	font-family: 'Roboto Slab', serif;
 }
@@ -103,7 +108,8 @@ body .background{
     text-transform: uppercase;
     background-color: #708D23;
     font-size: 16px;
-    border-radius: 4px;
+    border-style: double;
+    border-radius: 8px;
 }
 
 .background .Presentation .BtnMore a:active{
