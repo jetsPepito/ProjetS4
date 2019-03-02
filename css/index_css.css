@@ -68,11 +68,6 @@ body .background{
 	font-family: 'Roboto Slab', serif;
 }
 
-.background .HomeMenu .navbar ul li a:hover{
-  cursor: pointer;
-  color: yellow;
-}
-
 .background .HomeMenu .navbar ul li a:active{
   color: dimgray;
 }
