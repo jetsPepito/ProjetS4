@@ -57,6 +57,9 @@ header .Menu{
 
 .Menu .navbar ul li a{
   color: #708D23;
+  border-style: double;
+  border-width: 4px;
+  border
   text-decoration: none;
 }
 
