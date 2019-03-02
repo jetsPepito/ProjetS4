@@ -57,9 +57,6 @@ header .Menu{
 
 .Menu .navbar ul li a{
   color: #708D23;
-  border-style: double;
-  border-width: 4px;
-  border
   text-decoration: none;
 }
 
@@ -96,6 +93,7 @@ header .Menu{
     padding: 10px 20px;
     background-color: #708D23;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .Search .container .titleimg a{
@@ -130,9 +128,10 @@ header .Menu{
   margin-top: 15px;
   margin: 4px;
   background-color: #708D23;
+  border-radius: 10px;
   text-decoration: none;
 	font-family: 'Roboto Slab', serif;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 
@@ -154,6 +153,7 @@ header .Menu{
     margin:50px;
     margin-bottom: 15px;
     margin-top: 30px;
+    border-radius: 20px;
   }
 
 footer{
