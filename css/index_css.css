@@ -37,9 +37,9 @@ body .background{
   float: left;
   margin-top: 40px;
   margin-left: 15px;
-  background-image: url("Logo/rendered.jpg");
+  background-image: url("Logo/logo.png");
   background-size: cover;
-  padding: 50px 50px;
+  padding: 60px 55px;
   border-radius: 5px;
 }
 
