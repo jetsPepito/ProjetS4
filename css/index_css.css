@@ -37,9 +37,9 @@ body .background{
   float: left;
   margin-top: 40px;
   margin-left: 15px;
-  background-image: url("Logo/fired bowl.jpg");
+  background-image: url("Logo/rendered.jpg");
   background-size: cover;
-  padding: 25px 35px;
+  padding: 50px 50px;
   border-radius: 5px;
 }
 
