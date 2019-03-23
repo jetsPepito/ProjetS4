@@ -18,14 +18,10 @@ body{
   background-color:white;
 }
 
-.header{
-	background-color: white;
-	color: white;
-  margin: 50px;
-}
 
 header .Menu{
   width: auto;
+  height: 50px;
   margin: 0 auto;
   position: relative;
   background-color: white;
@@ -41,7 +37,7 @@ header .Menu{
 .Menu .navbar{
   float: right;
   	font-family: 'Roboto Slab', serif;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .Menu .navbar ul{
@@ -59,13 +55,13 @@ header .Menu{
   color: #708D23;
   text-decoration: none;
 }
-.Menu .logo{
+header .Menu .logo{
   float: left;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 15px;
   background-image: url("Logo/logo.png");
   background-size: cover;
-  padding: 25px 23px;
+  padding: 50px 45px;
   border-radius: 5px;
 }
 
