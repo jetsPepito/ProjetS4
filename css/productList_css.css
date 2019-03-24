@@ -18,26 +18,35 @@ body{
   background-color:white;
 }
 
+.header{
+	background-color: white;
+	color: white;
+  margin: 60px;
+}
 
 header .Menu{
   width: auto;
-  height: 50px;
   margin: 0 auto;
   position: relative;
   background-color: white;
   color: white;
 }
 
-.Menu .logo{
+
+header .Menu .logo{
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 15px;
+  background-image: url("Logo/logo.png");
+  background-size: cover;
+  padding: 50px 45px;
+  border-radius: 5px;
 }
 
 .Menu .navbar{
   float: right;
   	font-family: 'Roboto Slab', serif;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .Menu .navbar ul{
@@ -55,15 +64,6 @@ header .Menu{
   color: #708D23;
   text-decoration: none;
 }
-header .Menu .logo{
-  float: left;
-  margin-top: 10px;
-  margin-left: 15px;
-  background-image: url("Logo/logo.png");
-  background-size: cover;
-  padding: 50px 45px;
-  border-radius: 5px;
-}
 
 .Menu .navbar ul li a:hover{
   cursor: pointer;
@@ -76,7 +76,7 @@ header .Menu .logo{
 
 .main{
     position: relative;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-bottom: 60px;
     min-height: 1080px;
     text-align: center;
