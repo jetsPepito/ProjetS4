@@ -24,19 +24,29 @@
     </header>
     <div class="main">
       <div class="checkout">
-        <div class="">
-        <div class="btnPayer">
-          <form method="POST" action="">
-          /*identificatio shop*/
-        	<input type="hidden" name="#" value="#" />
-          /*payment_features*/
-        	<input type="hidden" name="#" value="#" />
-          /*additional_information*/
-        	<input type="hidden" name="#" value="#" />
-          /*seign*/
-        	<input type="hidden" name="seing" value="seing"/>
-          /*data_sender*/
-        	<input type="submit" name="payer" value="Payer"/>
+        <div class="listof">
+          <form>
+            <fieldset>
+              <legend>Checkout</legend>
+            <a href="productPageBlueBowl.html">
+              <img class="selectProduct" src="css/Ceramics/blue bowl.JPG" alt="blue bowl" id="bowl">
+            </a>
+            <div class="priceSelectedProduct"> 25 £</div>
+          </fieldset>
+          </form>
+        </div>
+        <div class="btnBuy">
+          <!--identification shop
+          payment_features
+          additional_information
+          seign
+          data_sender-->
+          <form method="POST" action="#">
+          	<input type="hidden" name="shop" value="#" />
+          	<input type="hidden" name="features" value="#" />
+          	<input type="hidden" name="info" value="#" />
+          	<input type="hidden" name="seing" value="seing"/>
+          	<input type="submit" name="buy" value="buy"/>
           </form>
         </div>
       </div>
