@@ -38,7 +38,7 @@ header .Menu .logo{
 
 .Menu .navbar{
   float: right;
-  	font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
   margin-top: 40px;
 }
 
@@ -401,6 +401,7 @@ body{
   margin: 50px;
   height: 700px;
   width: 300px;
+  text-align: left;
 }
 
 .Login fieldset{
@@ -408,9 +409,6 @@ body{
   margin: 50px;
 }
 
-.btnLog{
-  position: right;
-}
 
 /*----------------payment_page----------------*/
 
