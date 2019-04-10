@@ -283,7 +283,7 @@ body{
 
 /*----------------product_page----------------*/
 
-.main img{
+.Product img{
   text-align: center;
   height: 400px;
   width: 500px;
@@ -294,7 +294,7 @@ body{
   float :left;
 }
 
-.main .ProductName p{
+.Product .ProductName p{
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
@@ -424,9 +424,13 @@ body{
 
 .listof{
 	width: 700px;
-
+	height: 800px;
 }
 
+.selectProduct{
+	height:50px;
+	width:50px;
+}
 
 /*----------------contact----------------*/
 
