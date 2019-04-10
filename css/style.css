@@ -544,3 +544,223 @@ h1{
 	float: right;
 	margin-right: 20px;
 }
+
+/*----------------header2----------------*/
+
+header{
+	background-color: white;
+  position: fixed;
+  width:100%;
+	overflow: auto;
+	z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+}
+
+header .Menu2{
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  color: white;
+	overflow: auto;
+}
+
+header .Menu2 .logo2{
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-image: url("Logo/logo.png");
+  background-size: cover;
+  padding: 50px 45px;
+  border-radius: 5px;
+}
+
+.Menu2 .logo2{
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.Menu2 .navbar2{
+  float: right;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 40px;
+}
+
+.Menu2 .navbar2 ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Menu2 .navbar2 ul li{
+  display: inline;
+  margin: 0 25px;
+}
+
+.Menu2 .navbar2 ul li a{
+  color: #3556B6  ;
+  text-decoration: none;
+}
+
+.Menu2 .navbar2 ul li a:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.Menu2 .navbar2 ul li a:active{
+  color: dimgray;
+}
+
+/*----------------footer2----------------*/
+
+footer{
+  width:100%;
+  height: 60px;
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+}
+
+footer .align2{
+	  float: right;
+		margin-left: auto;
+		margin-right: ;
+    width:900px;
+}
+
+footer .align2 li{
+    align-items: center;
+    display: inline;
+    margin-right: 100px;
+		margin-left: 100px;
+}
+
+footer li a{
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #3556B6  ;
+	font-size: 10px;
+	border-radius: 4px;
+}
+
+footer li a:active{
+  color: dimgray;
+}
+
+footer .image2{
+    position: absolute;
+    width:80px;
+    height:50px;
+    margin-top: 10px;
+}
+footer .align2 .imageL2{
+    position: relative;
+    width:36px;
+    height:36px;
+		margin-left: 10px;
+		border-radius: 50px;
+		margin-top: 5px;
+}
+
+/*----------------main2-------------------*/
+
+body .main2{
+	background-image: url("black2.jpeg");
+	background-repeat:no-repeat;
+  position: fixed;
+	background-size: cover;
+}
+
+.main2{
+	position: relative;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  min-height: 1080px;
+  height: 100%;
+  text-align: center;
+  background-color: #D0D1D3;
+  border-style: hidden;
+}
+
+/*----------------product_list2----------------*/
+
+.Search2{
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+}
+
+.Search2 .container2 {
+    overflow: hidden;
+}
+
+.Search2 .container2 .titleimg{
+    padding: 10px 20px;
+    background-color: #3556B6  ;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Search2 .container2 .titleimg a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.titleimg{
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Search2 .filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.Search2 .show {
+  display: inline-block;
+}
+
+/* Style the buttons */
+.Search2 .btn {
+  border: none;
+  padding: 18px 24px;
+  background-color: whitesmoke;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin: 4px;
+  background-color: #3556B6  ;
+  border-radius: 10px;
+  text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+
+
+.Search2 .btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.Search2 .btn.active {
+  background-color: darkgray;
+  color: darkolivegreen;
+}
+
+.Search2 .imgProduct{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    margin:50px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
