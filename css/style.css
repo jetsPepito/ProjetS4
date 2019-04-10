@@ -505,13 +505,19 @@ h1{
 
 /*----------------About us----------------*/
 
-.main video{
+.main iframe{
   float:left;
-  margin:50px;
+  margin-left: 20px;
 }
 
 .AboutIntro p{
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
+	margin-top: 50px;
+}
+
+.main .mapouter{
+	float: right;
+	margin-right: 20px;
 }
