@@ -25,14 +25,28 @@
     <div class="main">
       <div class="checkout">
         <div class="listof">
-          <form>
+          <form action="/paymentPage.html" oninput="tot.value=parseInt(price.value)*parseInt(qnt.value)">
             <fieldset>
               <legend>Checkout</legend>
+                <table class="table">
+                <tr>
+            			<th></th>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+            			<td><img class="imgSelectProduct" src="css/Ceramics/blue bowl.JPG" ></td>
+                  <td><input type="hidden" id="price" name="price" value="25">Blue Bowl</td>
+                  <td><input type="number" id="qnt" name="qnt" value="1"></td>
+                  <td><output name="tot" for="price qnt"></output>£</td>
+                </tr>
+              <!--
               <div class="selectProduct">
             <a href="productPageBlueBowl.html">
               <img class="imgSelectProduct" src="css/Ceramics/blue bowl.JPG">
             </a>
-            <div class="priceSelectedProduct"> 25 £</div>
+            <div class="priceSelectedProduct"> 25 £</div> -->
           </fieldset>
           </form>
         </div>
