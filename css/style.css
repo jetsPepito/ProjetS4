@@ -433,37 +433,6 @@ body{
     border-radius: 20px;
   }
 
-/*----------------register----------------*/
-
-.Register{
-  position: absolute;
-  margin: 50px;
-  height: 700px;
-  width: 300px;
-  text-align: left;
-}
-
-.Register fieldset{
-  width:250px;
-  margin: 50px;
-}
-
-/*----------------login----------------*/
-
-.Login{
-  position: absolute;
-  margin: 50px;
-  height: 700px;
-  width: 300px;
-  text-align: left;
-}
-
-.Login fieldset{
-  width:250px;
-  margin: 50px;
-}
-
-
 /*----------------payment_page----------------*/
 
 .checkout{
