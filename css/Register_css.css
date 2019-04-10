@@ -63,7 +63,7 @@ header .Menu{
   color: dimgray;
 }
 
-main{
+.main{
     position: relative;
     margin-top: 100px;
     margin-bottom: 60px;

@@ -63,7 +63,7 @@ header .Menu{
   color: dimgray;
 }
 
-main{
+.main{
     position: relative;
     margin-top: 100px;
     margin-bottom: 60px;
@@ -79,24 +79,11 @@ main{
   width: 300px;
 }
 
-fieldset{
+.Login fieldset{
   width:250px;
   margin: 50px;
 }
 
-
-
 .btnLog{
   position: right;
-}
-
-.Register{
-      position: relative;
-      text-align: right;
-}
-.Register a{
-  color: #708D23;
-  text-decoration: none;
-  padding: 15px 20px;
-  background-color: #FFF;
 }
