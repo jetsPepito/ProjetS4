@@ -337,21 +337,44 @@ body{
   height: 400px;
   width: 500px;
   margin:50px;
-  margin-bottom: 15px;
-  margin-top: 50px;
   border-radius: 20px;
   float :left;
 }
 
-.Product .ProductName p{
+.ProductName{
+  display: inline-grid;
+}
+
+.main .ProductName h1{
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
   color: #708D23;
   float: right;
-  margin-right: 200px;
-  margin-top: 220px;
+  margin: 50px;
   font-size: 18px;
+}
+
+.main .ProductName p{
+  position: relative;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  color: #708D23;
+  float: right;
+  font-size: 18px;
+  height: 250px;
+  width: 300px;
+}
+
+.Add{
+  position:relative;
+  margin-top:100px;
+}
+
+.Add button{
+  width: 150px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 /*----------------product_list----------------*/
