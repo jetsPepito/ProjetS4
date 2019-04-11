@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-family: 'Bad Script', cursive;
+		font-family: 'Pacifico', cursive;
 */
 
 /*----------------header----------------*/
@@ -39,8 +40,38 @@ header .Menu .logo{
   float: left;
   margin-top: 20px;
   margin-left: 15px;
+	max-height:50px;
 }
 
+.Menu .titleC{
+	position: relative;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.titleC{
+	font-size: 30px;
+
+	-webkit-animation-name: titlemoving; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: infinite;
+	animation-name: titlemoving;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes titlemoving {
+  from {color: #AA3A38;}
+  to {color: #CD9D2D;}
+}
+
+/* Standard syntax */
+@keyframes titlemoving {
+  from {color: #AA3A38;}
+  to {color: #CD9D2D;}
+}
 .Menu .navbar{
   float: right;
   font-family: 'Roboto Slab', serif;
