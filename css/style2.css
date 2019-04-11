@@ -59,7 +59,7 @@ header .Menu .logo{
 }
 
 .Menu .navbar ul li a{
-  color: #708D23;
+  color: #243B55;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ footer{
   width:100%;
   height: 60px;
   position: absolute;
-  background-color: #140805;
+  background-color: #CD9D2D;
   bottom: 0;
 }
 
@@ -98,10 +98,10 @@ footer .align li{
 
 footer li a{
 	padding: 10px 15px;
-	color: white;
+	color: #CD9D2D;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: #708D23;
+	background-color: #AA3A38;
 	font-size: 10px;
 	border-radius: 4px;
 }
@@ -224,7 +224,7 @@ body .background{
   width:100%;
   height: 60px;
   position: absolute;
-  background-color: #140805;
+  background-color: #CD9D2D;
   bottom: 0;
 }
 
@@ -323,10 +323,12 @@ body{
   position: relative;
   margin-top: 120px;
   margin-bottom: 60px;
-  min-height: 1080px;
+  min-height: 1300px;
   height: 100%;
   text-align: center;
-  background-color: #D0D1D3;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-style: hidden;
 }
 
@@ -391,14 +393,14 @@ body{
 
 .Search .container .titleimg{
     padding: 10px 20px;
-    background-color: #708D23;
+    background-color: #DCB945;
     margin-bottom: 15px;
     border-radius: 5px;
 }
 
 .Search .container .titleimg a{
   text-decoration: none;
-  color: white;
+  color: #AA3A38;
 
 }
 
@@ -423,11 +425,11 @@ body{
   border: none;
   padding: 18px 24px;
   background-color: whitesmoke;
-  color: white;
+  color: #AA3A38;
   cursor: pointer;
   margin-top: 15px;
   margin: 4px;
-  background-color: #708D23;
+  background-color: #DCB945;
   border-radius: 10px;
   text-decoration: none;
 	font-family: 'Roboto Slab', serif;
@@ -442,8 +444,8 @@ body{
 
 
 .Search .btn.active {
-  background-color: darkgray;
-  color: darkolivegreen;
+  background-color: #AA3A38;
+  color: #DCB945;
 }
 
 .Search .imgProduct{
