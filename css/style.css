@@ -4,29 +4,28 @@
     font-family: 'Bad Script', cursive;
 		font-family: 'Pacifico', cursive;
 */
-
 /*----------------header----------------*/
-
-header{
-	background-color: white;
+header {
+  background-color: white;
   position: fixed;
-  width:100%;
-	overflow: auto;
-	z-index: 1; /* Sit on top */
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
 }
 
-header .Menu{
+header .Menu {
   width: auto;
   margin: 0 auto;
   position: relative;
   background-color: white;
   color: white;
-	overflow: auto;
+  overflow: auto;
 }
 
-header .Menu .logo{
+header .Menu .logo {
   float: left;
   margin-top: 10px;
   margin-left: 15px;
@@ -36,114 +35,113 @@ header .Menu .logo{
   border-radius: 5px;
 }
 
-.Menu .logo{
+.Menu .logo {
   float: left;
   margin-top: 20px;
   margin-left: 15px;
 }
 
-.Menu .navbar{
+.Menu .navbar {
   float: right;
   font-family: 'Roboto Slab', serif;
   margin-top: 40px;
 }
 
-.Menu .navbar ul{
+.Menu .navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.Menu .navbar ul li{
+.Menu .navbar ul li {
   display: inline;
   margin: 0 25px;
 }
 
-.Menu .navbar ul li a{
+.Menu .navbar ul li a {
   color: #708D23;
   text-decoration: none;
 }
 
-.Menu .navbar ul li a:hover{
+.Menu .navbar ul li a:hover {
   cursor: pointer;
   color: black;
 }
 
-.Menu .navbar ul li a:active{
+.Menu .navbar ul li a:active {
   color: dimgray;
 }
 
 /*----------------footer----------------*/
-
-footer{
-  width:100%;
+footer {
+  width: 100%;
   height: 60px;
   position: absolute;
   background-color: #140805;
   bottom: 0;
 }
 
-footer .align{
-	  float: right;
-		margin-left: auto;
-		margin-right: ;
-    width:900px;
+footer .align {
+  float: right;
+  margin-left: auto;
+  margin-right: ;
+  width: 900px;
 }
 
-footer .align li{
-    align-items: center;
-    display: inline;
-    margin-right: 100px;
-		margin-left: 100px;
+footer .align li {
+  align-items: center;
+  display: inline;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-footer li a{
-	padding: 10px 15px;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #708D23;
-	font-size: 10px;
-	border-radius: 4px;
+footer li a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #708D23;
+  font-size: 10px;
+  border-radius: 4px;
 }
 
-footer li a:active{
+footer li a:active {
   color: dimgray;
 }
 
-footer .image{
-    position: absolute;
-    width:80px;
-    height:50px;
-    margin-top: 10px;
+footer .image {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  margin-top: 10px;
 }
-footer .align .imageL{
-    position: relative;
-    width:36px;
-    height:36px;
-		margin-left: 10px;
-		border-radius: 50px;
-		margin-top: 5px;
+
+footer .align .imageL {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+  border-radius: 50px;
+  margin-top: 5px;
 }
 
 /*----------------index----------------*/
-
-body .background{
+body .background {
   background-image: url("Ceramics/Jugs.JPG");
-	background-repeat:no-repeat;
+  background-repeat: no-repeat;
   position: fixed;
-	background-size: cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
 
-.background .HomeMenu{
+.background .HomeMenu {
   width: auto;
   margin: 0 auto;
   position: relative;
 }
 
-.background .HomeMenu .logo{
+.background .HomeMenu .logo {
   float: left;
   margin-top: 40px;
   margin-left: 15px;
@@ -153,116 +151,114 @@ body .background{
   border-radius: 5px;
 }
 
-.background .HomeMenu .navbar{
+.background .HomeMenu .navbar {
   float: right;
   margin-top: 30px;
 }
 
-.background .HomeMenu .navbar ul{
+.background .HomeMenu .navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.background .HomeMenu .navbar ul li{
+.background .HomeMenu .navbar ul li {
   display: inline;
   margin: 0 15px;
 }
 
-.background .HomeMenu .navbar ul li a{
+.background .HomeMenu .navbar ul li a {
   color: white;
-  padding : 5px 15px;
+  padding: 5px 15px;
   background-color: #708D23;
   border-radius: 12px;
   text-decoration: none;
-	font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
-.background .HomeMenu .navbar ul li a:active{
+.background .HomeMenu .navbar ul li a:active {
   color: dimgray;
 }
 
-.background .Presentation{
-	float: right;
-	margin-right: 0%;
-	margin-top: 230px;
-	padding: 80px 100px;
+.background .Presentation {
+  float: right;
+  margin-right: 0%;
+  margin-top: 230px;
+  padding: 80px 100px;
   margin-left: 350px;
 }
 
-.background .Presentation .Intro{
-	color:white;
-	font-size: 40px;
-	font-weight: 500;
-	font-family: 'Luckiest Guy', cursive;
-	background-size: auto;
-
+.background .Presentation .Intro {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Luckiest Guy', cursive;
+  background-size: auto;
 }
 
-.background .Presentation .BtnMore{
-	text-align: right;
-	color: #FFF;
-	margin-top: 30px;
+.background .Presentation .BtnMore {
+  text-align: right;
+  color: #FFF;
+  margin-top: 30px;
 }
 
-.background .Presentation .BtnMore a{
-		padding: 18px 26px;
-    color: white;
-		font-family: 'Roboto Slab', serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #708D23;
-    font-size: 16px;
-    border-style: double;
-    border-radius: 8px;
+.background .Presentation .BtnMore a {
+  padding: 18px 26px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #708D23;
+  font-size: 16px;
+  border-style: double;
+  border-radius: 8px;
 }
 
-.background .Presentation .BtnMore a:active{
-	color:dimgray;
+.background .Presentation .BtnMore a:active {
+  color: dimgray;
 }
 
-.cheat{
-  width:100%;
+.cheat {
+  width: 100%;
   height: 60px;
   position: absolute;
   background-color: #140805;
   bottom: 0;
 }
 
-.cheat .align{
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width:499px;
+.cheat .align {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 499px;
 }
 
-.cheat .align li{
-    align-items: center;
-    display: inline;
-    margin: 10px 100px;
+.cheat .align li {
+  align-items: center;
+  display: inline;
+  margin: 10px 100px;
 }
 
-
-.cheat li a{
-	padding: 10px 15px;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #708D23;
-	font-size: 10px;
-	border-radius: 4px;
-	margin-top: 40px;
+.cheat li a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #708D23;
+  font-size: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
 }
 
-.cheat li a:active{
+.cheat li a:active {
   color: dimgray;
 }
 
-.cheat .image{
-    position: absolute;
-    width:80px;
-    height:40px;
-    margin-top: 10px;
+.cheat .image {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .modal {
@@ -274,9 +270,7 @@ body .background{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.8);
-
-
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Modal Content */
@@ -287,7 +281,6 @@ body .background{
   border: 1px solid #888;
   width: 80%;
   border-radius: 20px;
-
 }
 
 /* The Close Button */
@@ -306,21 +299,21 @@ body .background{
 }
 
 /*----------------main_of_all_page----------------*/
-html{
-    height:105%;
+html {
+  height: 105%;
 }
 
-body{
-  display : table;
+body {
+  display: table;
   width: 100%;
   min-height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
-  background-color:#D0D1D3;
+  background-color: #D0D1D3;
 }
 
-.main{
+.main {
   position: relative;
   margin-top: 120px;
   margin-bottom: 60px;
@@ -332,21 +325,20 @@ body{
 }
 
 /*----------------product_page----------------*/
-
-.Product img{
+.Product img {
   text-align: center;
   height: 400px;
   width: 500px;
-  margin:50px;
+  margin: 50px;
   border-radius: 20px;
-  float :left;
+  float: left;
 }
 
-.ProductName{
+.ProductName {
   display: inline-grid;
 }
 
-.main .ProductName h1{
+.main .ProductName h1 {
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
@@ -356,7 +348,7 @@ body{
   font-size: 18px;
 }
 
-.main .ProductName p{
+.main .ProductName p {
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
@@ -367,43 +359,41 @@ body{
   width: 300px;
 }
 
-.Add{
-  position:relative;
-  margin-top:100px;
+.Add {
+  position: relative;
+  margin-top: 100px;
 }
 
-.Add button{
+.Add button {
   width: 150px;
   font-size: 20px;
   font-family: 'Roboto Slab', serif;
 }
 
 /*----------------product_list----------------*/
-
-.Search{
-    position: relative;
-    min-height: 100%;
-    text-align: center;
+.Search {
+  position: relative;
+  min-height: 100%;
+  text-align: center;
 }
 
 .Search .container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.Search .container .titleimg{
-    padding: 10px 20px;
-    background-color: #708D23;
-    margin-bottom: 15px;
-    border-radius: 5px;
+.Search .container .titleimg {
+  padding: 10px 20px;
+  background-color: #708D23;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
-.Search .container .titleimg a{
+.Search .container .titleimg a {
   text-decoration: none;
   color: white;
-
 }
 
-.titleimg{
+.titleimg {
   width: 200px;
   height: auto;
   margin-left: auto;
@@ -411,7 +401,8 @@ body{
 }
 
 .Search .filterDiv {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
 }
 
 /* The "show" class is added to the filtered elements */
@@ -431,129 +422,115 @@ body{
   background-color: #708D23;
   border-radius: 10px;
   text-decoration: none;
-	font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 14px;
 }
-
 
 .Search .btn:hover {
   cursor: pointer;
   color: black;
 }
 
-
 .Search .btn.active {
   background-color: darkgray;
   color: darkolivegreen;
 }
 
-.Search .imgProduct{
-    text-align: center;
-    height: 300px;
-    width: 400px;
-    margin:50px;
-    margin-bottom: 15px;
-    margin-top: 30px;
-    border-radius: 20px;
-  }
+.Search .imgProduct {
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  margin: 50px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
 
 /*----------------payment_page----------------*/
-
-.checkout{
-	text-align: left;
-	font-family: 'Roboto Slab', serif;
-	display: inline;
+.checkout {
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  display: inline;
 }
 
-.listof fieldset{
-	width: 700px;
-	height: 400px;
+.listof fieldset {
+  width: 700px;
+  height: 400px;
 }
 
-
-.selectProduct{
-	position: relative;
-	display: inline;
+.selectProduct {
+  position: relative;
+  display: inline;
 }
 
-.imgSelectProduct{
-	height:50px;
-	width:50px;
+.imgSelectProduct {
+  height: 50px;
+  width: 50px;
 }
 
-.btnBuy{
+.btnBuy {}
 
-}
 /*----------------contact----------------*/
-
-form{
+form {
   font-family: 'Roboto Slab', serif;
 }
 
-input[type=submit]{
+input[type=submit] {
   width: 150px;
   font-size: 20px;
   font-family: 'Roboto Slab', serif;
 }
 
-label{
+label {
   width: 30px;
   display: block;
 }
 
-textarea{
-  padding:0 20px 20px 20px;
-  margin-bottom:10px;
-  border:1px double #DF3F3F;
+textarea {
+  padding: 0 20px 20px 20px;
+  margin-bottom: 10px;
+  border: 1px double #DF3F3F;
 }
 
-textarea, placeholder{
+textarea, placeholder {
   font-size: 17px;
   font-family: 'Roboto Slab', serif;
 }
 
-input, placeholder{
+input, placeholder {
   font-size: 17px;
   font-family: 'Roboto Slab', serif;
 }
 
-input ,textarea {
+input, textarea {
   background-color: #D9E9FA;
 }
 
-h1{
+h1 {
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
   color: #708D23;
 }
 
 /*----------------About us----------------*/
-
-.main iframe{
-  float:left;
+.main iframe {
+  float: left;
   margin-left: 20px;
 }
 
-.AboutIntro p{
+.AboutIntro p {
   position: relative;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
-.main .mapouter{
-	float: right;
-	margin-right: 20px;
+.main .mapouter {
+  float: right;
+  margin-right: 20px;
 }
 
 /*----------------header2----------------*/
-
-
-
 /*----------------footer2----------------*/
-
-
 /*----------------main2-------------------*/
-
-
 /*----------------product_list2----------------*/
