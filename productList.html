@@ -14,10 +14,9 @@
 <body>
   <header>
     <div class="Menu">
-      <a href="index.html">
-        <div class="logo">
-        </div>
-      </a>
+      <div class="logo">
+        <a href="index.html"></a>
+      </div>
       <div class="navbar">
         <ul>
           <li><a href="about_us.html">About us</a></li>
@@ -107,7 +106,7 @@
         </div>
         <div class="filterDiv bowls">
           <a href="productPagePinkbowl.html">
-            <img class="imgProduct" src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl" name="bowl">
+            <img class="imgProduct" src="css/Ceramics/Pink bowl.JPG" alt="Pink bowl" id="bowl">
 
           </a>
           <div class="titleimg"><a href="productPagePinkbowl.html">Pink bowl : £20.00</a></div>
@@ -142,69 +141,76 @@
         </div>
       </div>
       <script>
-        filterSelection("all")
+        filterSelection('all');
 
         function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("filterDiv");
-          if (c == "all") c = "";
+          var x;
+          var i;
+          x = document.getElementsByClassName('filterDiv');
+          if (c == 'all') c = '';
           for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          RemoveClass(x[i], 'show');
+          if (x[i].className.indexOf(c) > -1) AddClass(x[i], 'show');
           }
         }
 
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {
-              element.className += " " + arr2[i];
-            }
+        function AddClass(element, name) {
+          var i;
+          var arr1;var arr2;
+        arr1 = element.className.split(' ');
+        arr2 = name.split(' ');
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += ' ' + arr2[i];
           }
         }
 
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
+        function RemoveClass(element, name) {
+          var i;
+          var arr1;
+          var arr2;
+          arr1 = element.className.split(' ');
+          arr2 = name.split(' ');
           for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);
-            }
+              while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);
+              }
           }
-          element.className = arr1.join(" ");
+
+          element.className = arr1.join(' ');
         }
+
         // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
+        var btnContainer = document.getElementById('myBtnContainer');
+        var btns = btnContainer.getElementsByClassName('btn');
         for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
+          btns[i].addEventListener('click', function () {
+            var current = document.getElementsByClassName('active');
+            current[0].className = current[0].className.replace(' active', '');
+            this.className += ' active';
           });
-        }
+        };
       </script>
     </div>
   </div>
   <footer>
-    <img class="image" src="css/Logo_CB.png">
-    <div class="align">
-      <li>
-        <a class="btnBackward" href="productList.html">Return to the top of the page</a> <!-- change ref for each pages-->
-      </li>
-      <li>
-        <a class="Contact" href="contact.html">Contact</a>
-      </li>
-      <a class="Sm" href="https://www.facebook.com/firedbowl/">
-        <img class="imageL" src="css/Logo/logofacebook.jpg">
-      </a>
-      <a class="Sm" href="https://www.instagram.com/firedbowl/?hl=fr">
-        <img class="imageL" src="css/Logo/logoinsta.jpg">
-      </a>
-    </div>
+    <ul>
+    <li><img class="image" src="css/Logo_CB.png" alt="logoCBAllowed"></li>
+    <li><div class="btn"><a href="productList.html">Return to the top of the page</a></div></li>
+    <li><div class="btn"><a href="contact.html">Contact</a></div></li>
+    <li>
+      <div class="sm">
+        <a href="https://www.facebook.com/firedbowl/">
+          <img class="imageL" src="css/Logo/logofacebook.jpg" alt="logoFacebook">
+        </a>
+      </div>
+      <div class="sm">
+        <a href="https://www.instagram.com/firedbowl/?hl=fr">
+          <img class="imageL" src="css/Logo/logoinsta.jpg" alt="logoInstagram">
+        </a>
+      </div>
+    </li>
+    </ul>
   </footer>
 </body>
 
