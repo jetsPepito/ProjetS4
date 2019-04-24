@@ -133,8 +133,7 @@ footer ul {
 
 footer ul li,.btn,.sm{
   display: inline;
-  margin-right: 300px;
-  margin-bottom: 0;
+  margin-right: 8%;
 }
 
 footer ul li .btn a{
