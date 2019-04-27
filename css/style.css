@@ -530,6 +530,26 @@ h1 {
   margin-right: 20px;
 }
 
+iframe{
+  width: 580px;
+  height: 465px;
+  frameborder:0px;
+  scrolling: "no";
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 465px;
+  width: 580px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 480px;
+  width: 580px;
+
 /*----------------header2----------------*/
 /*----------------footer2----------------*/
 /*----------------main2-------------------*/
